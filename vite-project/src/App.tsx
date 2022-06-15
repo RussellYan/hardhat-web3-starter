@@ -3,7 +3,7 @@ import { ethers } from 'ethers'
 // import type { ContractInterface } from 'ethers'
 import abi from './abi/Counter.json'
 
-const contractAddress = '0x5fbdb2315678afecb367f032d93f642f64180aa3'
+const contractAddress = '0x824075ab675b4af5b7781e8ea61f604ede073b5e'
 const contractAbi = abi.abi
 
 function App() {

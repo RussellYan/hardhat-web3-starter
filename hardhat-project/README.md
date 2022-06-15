@@ -12,12 +12,16 @@ npx hardhat test
 npx hardhat help
 ```
 
-部署
+项目创建、部署
 ```shell
+// 1、创建项目
+mkdir hardhat-project
+cd hardhat-project
+npx hardhat init
+// 2、测试
 npx hardhat node
-// 新建窗口
-npx hardhat run scripts/run.js
-// 本机节点运行
-npx hardhat run scripts/run.js --network localhost
-
+npm run dev (新建窗口 本机节点运行)
+// 3、部署合约
+// alchemy申请自动部署api, 在hardhat-config.js文件添加配置信息
+npm run deploy
 ```
